@@ -1,0 +1,61 @@
+[TAILING] Tailing last 1000 lines for [all] processes (change the value with --lines option)
+/root/.pm2/pm2.log last 1000 lines:
+PM2        | 2024-05-02T11:42:32: PM2 log: ===============================================================================
+PM2        | 2024-05-02T11:42:32: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+PM2        | 2024-05-02T11:42:32: PM2 log: Time                 : Thu May 02 2024 11:42:32 GMT+0000 (协调世界时)
+PM2        | 2024-05-02T11:42:32: PM2 log: PM2 version          : 5.3.1
+PM2        | 2024-05-02T11:42:32: PM2 log: Node.js version      : 20.12.2
+PM2        | 2024-05-02T11:42:32: PM2 log: Current arch         : x64
+PM2        | 2024-05-02T11:42:32: PM2 log: PM2 home             : /root/.pm2
+PM2        | 2024-05-02T11:42:32: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+PM2        | 2024-05-02T11:42:32: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+PM2        | 2024-05-02T11:42:32: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+PM2        | 2024-05-02T11:42:32: PM2 log: Application log path : /root/.pm2/logs
+PM2        | 2024-05-02T11:42:32: PM2 log: Worker Interval      : 30000
+PM2        | 2024-05-02T11:42:32: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+PM2        | 2024-05-02T11:42:32: PM2 log: Concurrent actions   : 2
+PM2        | 2024-05-02T11:42:32: PM2 log: SIGTERM timeout      : 1600
+PM2        | 2024-05-02T11:42:32: PM2 log: ===============================================================================
+PM2        | 2024-05-02T11:42:32: PM2 log: App [mongod:0] starting in -fork mode-
+PM2        | 2024-05-02T11:42:32: PM2 log: App [mongod:0] online
+PM2        | 2024-05-02T11:42:35: PM2 log: Stopping app:mongod id:0
+PM2        | 2024-05-02T11:42:36: PM2 log: pid=7294 msg=failed to kill - retrying in 100ms
+PM2        | 2024-05-02T11:42:36: PM2 log: pid=7294 msg=failed to kill - retrying in 100ms
+PM2        | 2024-05-02T11:42:36: PM2 log: App [mongod:0] exited with code [0] via signal [SIGINT]
+PM2        | 2024-05-02T11:42:36: PM2 log: pid=7294 msg=process killed
+PM2        | 2024-05-02T11:42:36: PM2 log: App [hydro-sandbox:0] starting in -fork mode-
+PM2        | 2024-05-02T11:42:36: PM2 log: App [hydro-sandbox:0] online
+PM2        | 2024-05-02T11:42:37: PM2 log: App [mongodb:1] starting in -fork mode-
+PM2        | 2024-05-02T11:42:37: PM2 log: App [mongodb:1] online
+PM2        | 2024-05-02T11:42:38: PM2 log: App [hydrooj:2] starting in -fork mode-
+PM2        | 2024-05-02T11:42:38: PM2 log: App [hydrooj:2] online
+PM2        | 2024-05-02T11:42:38: PM2 log: App [caddy:3] starting in -fork mode-
+PM2        | 2024-05-02T11:42:38: PM2 log: App [caddy:3] online
+PM2        | 2024-05-02T11:43:13: PM2 log: App [pm2-logrotate:4] starting in -fork mode-
+PM2        | 2024-05-02T11:43:13: PM2 log: App [pm2-logrotate:4] online
+PM2        | 2024-05-02T11:43:13: PM2 log: Stopping app:pm2-logrotate id:4
+PM2        | 2024-05-02T11:43:13: PM2 log: App [pm2-logrotate:4] exited with code [0] via signal [SIGINT]
+PM2        | 2024-05-02T11:43:13: PM2 log: pid=8227 msg=process killed
+PM2        | 2024-05-02T11:43:13: PM2 log: App [pm2-logrotate:4] starting in -fork mode-
+PM2        | 2024-05-02T11:43:13: PM2 log: App [pm2-logrotate:4] online
+PM2        | 2024-05-02T12:57:46: PM2 log: ===============================================================================
+PM2        | 2024-05-02T12:57:46: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+PM2        | 2024-05-02T12:57:46: PM2 log: Time                 : Thu May 02 2024 12:57:46 GMT+0000 (Coordinated Universal Time)
+PM2        | 2024-05-02T12:57:46: PM2 log: PM2 version          : 5.3.1
+PM2        | 2024-05-02T12:57:46: PM2 log: Node.js version      : 20.12.2
+PM2        | 2024-05-02T12:57:46: PM2 log: Current arch         : x64
+PM2        | 2024-05-02T12:57:46: PM2 log: PM2 home             : /root/.pm2
+PM2        | 2024-05-02T12:57:46: PM2 log: PM2 PID file         : /root/.pm2/pm2.pid
+PM2        | 2024-05-02T12:57:46: PM2 log: RPC socket file      : /root/.pm2/rpc.sock
+PM2        | 2024-05-02T12:57:46: PM2 log: BUS socket file      : /root/.pm2/pub.sock
+PM2        | 2024-05-02T12:57:46: PM2 log: Application log path : /root/.pm2/logs
+PM2        | 2024-05-02T12:57:46: PM2 log: Worker Interval      : 30000
+PM2        | 2024-05-02T12:57:46: PM2 log: Process dump file    : /root/.pm2/dump.pm2
+PM2        | 2024-05-02T12:57:46: PM2 log: Concurrent actions   : 2
+PM2        | 2024-05-02T12:57:46: PM2 log: SIGTERM timeout      : 1600
+PM2        | 2024-05-02T12:57:46: PM2 log: ===============================================================================
+PM2        | 2024-05-02T12:57:47: PM2 log: App [pm2-logrotate:0] starting in -fork mode-
+PM2        | 2024-05-02T12:57:47: PM2 log: App [pm2-logrotate:0] online
+
+/root/.pm2/logs/pm2-logrotate-out.log last 1000 lines:
+/root/.pm2/logs/pm2-logrotate-error.log last 1000 lines:
